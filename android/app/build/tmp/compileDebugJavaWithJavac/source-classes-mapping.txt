@@ -1,0 +1,14 @@
+com/verifier/MainApplication.java
+ com.verifier.MainApplication
+ com.verifier.MainApplication$1
+com/verifier/MainActivity.java
+ com.verifier.MainActivity
+com/verifier/ReactNativeFlipper.java
+ com.verifier.ReactNativeFlipper
+ com.verifier.ReactNativeFlipper$1
+ com.verifier.ReactNativeFlipper$2
+ com.verifier.ReactNativeFlipper$2$1
+com/verifier/BuildConfig.java
+ com.verifier.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

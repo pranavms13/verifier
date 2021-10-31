@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.verifier"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\UIDAI\new\verifier\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\UIDAI\new\verifier\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:3:3-65
+12-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:3:20-62
+13    <uses-permission
+13-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:4:3-100
+14        android:name="android.permission.ACCESS_FINE_LOCATION"
+14-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:4:44-98
+15        android:required="true" />
+15-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:4:20-43
+16    <uses-permission
+16-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:5:3-97
+17        android:name="android.permission.ACCESS_WIFI_STATE"
+17-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:5:44-95
+18        android:required="true" />
+18-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:5:20-43
+19    <uses-permission
+19-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:6:3-97
+20        android:name="android.permission.CHANGE_WIFI_STATE"
+20-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:6:44-95
+21        android:required="true" />
+21-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:6:20-43
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:7:3-79
+22-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:7:20-76
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:8:3-77
+23-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:8:20-75
+24
+25    <application
+25-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:9:3-16:17
+26        android:name="com.verifier.MainApplication"
+26-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:9:16-47
+27        android:allowBackup="false"
+27-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:9:162-189
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.5.0] C:\Users\Pranav\.gradle\caches\transforms-3\5646db46e2cfb43e7b3d42f3054c498c\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:9:81-115
+31        android:label="@string/app_name"
+31-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:9:48-80
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:9:116-161
+33        android:theme="@style/AppTheme"
+33-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:9:190-221
+34        android:usesCleartextTraffic="true" >
+34-->D:\UIDAI\new\verifier\android\app\src\debug\AndroidManifest.xml:8:9-44
+35        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+35-->D:\UIDAI\new\verifier\android\app\src\debug\AndroidManifest.xml:11:9-86
+35-->D:\UIDAI\new\verifier\android\app\src\debug\AndroidManifest.xml:11:19-83
+36        <activity
+36-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:10:5-15:16
+37            android:name="com.verifier.MainActivity"
+37-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:10:15-43
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+38-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:10:77-154
+39            android:label="@string/app_name"
+39-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:10:44-76
+40            android:launchMode="singleTask"
+40-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:10:155-186
+41            android:windowSoftInputMode="adjustResize" >
+41-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:10:187-229
+42            <intent-filter>
+42-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:11:7-14:23
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:12:9-61
+43-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:12:17-58
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:13:9-69
+45-->D:\UIDAI\new\verifier\android\app\src\main\AndroidManifest.xml:13:19-66
+46            </intent-filter>
+47        </activity> <!-- Used for transferring files  after a successful connection -->
+48        <service
+48-->[:react-native-wifi-p2p] D:\UIDAI\new\verifier\node_modules\react-native-wifi-p2p\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-14:38
+49            android:name="io.wifi.p2p.FileTransferService"
+49-->[:react-native-wifi-p2p] D:\UIDAI\new\verifier\node_modules\react-native-wifi-p2p\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-59
+50            android:enabled="true" />
+50-->[:react-native-wifi-p2p] D:\UIDAI\new\verifier\node_modules\react-native-wifi-p2p\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+51        <service
+51-->[:react-native-wifi-p2p] D:\UIDAI\new\verifier\node_modules\react-native-wifi-p2p\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:38
+52            android:name="io.wifi.p2p.MessageTransferService"
+52-->[:react-native-wifi-p2p] D:\UIDAI\new\verifier\node_modules\react-native-wifi-p2p\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-62
+53            android:enabled="true" />
+53-->[:react-native-wifi-p2p] D:\UIDAI\new\verifier\node_modules\react-native-wifi-p2p\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-35
+54    </application>
+55
+56</manifest>
